@@ -1,0 +1,29 @@
+:root{--bg:#1A2032;--panel:#232A3F;--ink:#F4F6FB;--sub:#B6BFD3;--line:#3C4663;--link:#7FE0FF;--btn:#4C56E0}
+@media (prefers-color-scheme:light){:root{--bg:#F6F7FB;--panel:#FFFFFF;--ink:#141A2B;--sub:#4A5268;--line:#DDE1EA;--link:#2D4FC9;--btn:#4C56E0}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 -apple-system,"Noto Sans KR","Malgun Gothic","Segoe UI",sans-serif}
+a{color:var(--link)}
+header.top{border-bottom:1px solid var(--line)}
+.wrap{max-width:820px;margin:0 auto;padding:0 18px}
+.nav{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:14px 0}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;color:var(--ink);text-decoration:none;margin-right:auto}
+.brand img{width:34px;height:34px;border-radius:9px}
+.nav a.l{color:var(--sub);text-decoration:none;font-size:14.5px}
+.nav a.l:hover{color:var(--ink)}
+main{padding:28px 0 56px}
+h1{font-size:28px;line-height:1.35;margin:.2em 0 .4em;letter-spacing:-.5px}
+h2{font-size:20px;margin:2em 0 .5em}
+h3{font-size:17px;margin:1.4em 0 .3em}
+.m{color:var(--sub);font-size:14.5px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.btn{display:inline-block;background:var(--btn);color:#fff;text-decoration:none;font-weight:700;padding:12px 20px;border-radius:14px}
+table{border-collapse:collapse;width:100%;font-size:14.5px;margin:8px 0}
+td,th{border:1px solid var(--line);padding:9px 10px;text-align:left;vertical-align:top}
+th{background:var(--panel)}
+.tbl{overflow-x:auto}
+footer{border-top:1px solid var(--line);padding:24px 0 40px;color:var(--sub);font-size:13.5px;line-height:1.8}
+footer b{color:var(--ink)}
+.hero{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.hero img{width:96px;height:96px;border-radius:24px}
+.price{font-size:24px;font-weight:800}
